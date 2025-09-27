@@ -3,6 +3,8 @@ body {
   flex-direction: column;
   height: 100vh; 
   margin: 0;
+  background-color: #f0f4f8;
+  color: #333;  
 }
 
 
@@ -24,8 +26,35 @@ aside {
   padding: 1rem;
 }
 
-header, footer {
+header {
+  background-color: #004080;
+  color: white;
   padding: 1rem;
-  background-color: #eee;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #004080;
+  color: white;
   text-align: center;
+  padding: 1rem;
+}
+
+article {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
