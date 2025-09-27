@@ -127,30 +127,107 @@ blockquote {
 }
 
 .tutorials {
-  padding: 40px 20px;
+  background-color: #ffffff;
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.tutorials h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #071629;
+  margin-bottom: 60px;
+}
+
+.tutorials .tutorial-card {
+  display: inline-block;
+  width: 255px;
+  margin: 0 20px 60px;
+  text-align: left;
+  vertical-align: top;
 }
 
 .tutorial-card {
-  border: 1px solid #eee;
-  padding: 20px;
-  margin-bottom: 20px;
+  position: relative;
 }
 
-.tutorial-card img {
-  width: 25%;
+.tutorial-card img.thumbnail {
+  width: 100%;
   height: auto;
+  border-radius: 4px;
 }
 
-.author {
+.tutorial-card .play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 64px;
+  height: 64px;
+  transform: translate(-50%, -50%);
+  background-image: url('images/play.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.tutorial-card h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #071629;
+  margin: 15px 0 10px;
+}
+
+.tutorial-card p.description {
+  font-size: 14px;
+  color: #071629;
+  margin-bottom: 15px;
+}
+
+.tutorial-card .author {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.rating {
-  color: #f5b301;
-  margin: 10px 0;
+.author img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.author h4 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #071629;
+}
+
+.tutorial-card .rating {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 5px;
+  color: #c271ff;
+}
+
+.tutorial-card .duration {
+  font-size: 14px;
+  color: #071629;
+}
+
+.thumbnail-wrapper {
+  position: relative;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 64px;
+  height: 64px;
+  transform: translate(-50%, -50%);
+  background-image: url('images/play.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  pointer-events: none; 
 }
 
 .membership {
