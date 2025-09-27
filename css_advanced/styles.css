@@ -288,17 +288,44 @@ blockquote {
 .membership button:hover {
   background-color: #a85de0;
 }
+
 .faq {
-  padding: 40px 20px;
+  background-color: #ffffff;
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.faq h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #071629;
+  margin-bottom: 60px;
 }
 
 .faq-columns {
   display: flex;
+  justify-content: center;
   gap: 40px;
+  flex-wrap: wrap;
+}
+
+.faq-columns > div {
+  max-width: 250px;
+  text-align: left;
 }
 
 .faq h3 {
-  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #071629;
+  margin-bottom: 10px;
+}
+
+.faq p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #071629;
+  opacity: 0.8;
 }
 
 footer {
