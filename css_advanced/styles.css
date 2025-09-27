@@ -231,22 +231,63 @@ blockquote {
 }
 
 .membership {
+  background-color: #071629;
+  color: #ffffff;
   text-align: center;
-  padding: 40px 20px;
+  padding: 80px 40px;
+}
+
+.membership h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 60px;
 }
 
 .membership .benefits {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 60px;
   flex-wrap: wrap;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+.membership .benefits div {
+  max-width: 200px;
 }
 
 .membership img {
-  width: 50px;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.membership h3 {
+  font-size: 18px;
+  font-weight: 700;
   margin-bottom: 10px;
 }
 
+.membership p {
+  font-size: 14px;
+  line-height: 1.6;
+  opacity: 0.8;
+}
+
+.membership button {
+  padding: 15px 30px;
+  background-color: #c271ff;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.membership button:hover {
+  background-color: #a85de0;
+}
 .faq {
   padding: 40px 20px;
 }
